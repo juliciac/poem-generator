@@ -6,6 +6,7 @@
     <title>AI Poem Generator</title>
 </head>
 <body>
+<div class="container">
 <header>
   <h1>
     AI Poem Generator
@@ -14,22 +15,28 @@
 
 <main>
     <form>
-        <input type="text"
+        <input
+                type="text"
                placeholder="Enter the topic of the poem"
                autofocus
                required
                autocomplete="off"
+               class="instructions"
         />
-        <input type="submit" />
-        <div>
+        <input type="submit"
+               class="submit-button" />
+    </form>
+        <div class="poem">
             Poem goes here
             <br />
             Poem goes here
         </div>
-    </form>
 </main>
 
-  <footer>Coded by <a href="careauxcreativ.com" target="_blank">Julicia</a> </footer>
+  <footer>
+      Coded by <a href="careauxcreativ.com" target="_blank">Julicia</a>
+  </footer>
+</div>
 
 <script src="src/index.js"></script>
 </body>

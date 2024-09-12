@@ -24,14 +24,24 @@ h1 {
     color: #272044;
 }
 
-
-form {
-    padding: 30px;
+.form-container {
     background: #fff;
+    margin-bottom: 30px;
+    padding: 15px 20px;
     box-shadow: 0 20px 60px rgba(65, 50, 100, 0.08);
     border-radius: 10px;
+}
+
+form {
     display: flex;
-    margin-bottom: 30px;
+
+}
+
+.hint {
+    line-height: 1.5;
+    font-size: 12px;
+    margin-top: 5px;
+    opacity: 0.6;
 }
 
 .instructions {
@@ -62,6 +72,10 @@ form {
     line-height: 2;
     border-left: 3px solid #885df1;
     box-shadow: 0 20px 60px rgba(65, 50, 100, 0.03);
+}
+
+.hidden {
+    display: none;
 }
 
 .poem strong {
